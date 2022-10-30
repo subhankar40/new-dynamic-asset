@@ -1,0 +1,10 @@
+plugins {
+    id 'com.android.asset-pack'
+}
+
+assetPack {
+    packName = "asset_pack_2" // Directory name for the asset pack
+    dynamicDelivery {
+        deliveryType = "install-time"
+    }
+}
